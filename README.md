@@ -1,4 +1,4 @@
 # tabuada
 Tabuada
 
-Clique [aqui](https://pedrocasaes.github.io/contador/) para acessar a página
+Clique [aqui](https://pedrocasaes.github.io/tabuada/) para acessar a página
