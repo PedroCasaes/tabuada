@@ -2,6 +2,7 @@
 
 body{
     background: rgb(0, 0, 0);
+    background: black;
     font: normal 15pt Arial;
 }
 
@@ -99,3 +100,6 @@ input[type=number]::-webkit-outer-spin-button {
     -webkit-appearance: none;
     margin: 0;
 }
+
+
+
