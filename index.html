@@ -12,21 +12,23 @@
         <h1>Tabuada</h1>
     </header>
     <section>
-        <div>
+        <div class="conteudo">
             <p>
                 Número:
-                <input type="text" name="txtnumero" id="txtnumero" min="0">
+                <input class="numero" type="number" name="txtnumero" id="txtnumero" placeholder="Digite um número" min="0">
             </p>
             <p>
-                <input type="button" value="Calcular" onclick="calcular()">
+                <input class="calcular" type="button" value="Calcular" onclick="calcular()">
             </p>
         </div>
         <div id="resultado">
-            <select name="tabuada" id="seltab" size="10"></select>
+            <select class="tabuada" name="tabuada" id="seltab" size="10"></select>
         </div>
     </section>
     <footer>
-        <p>&copy; Pedro Casaes</p>
+
+        <a href="https://github.com/PedroCasaes"><p>&copy;PedroCasaes</p></a>
+        
     </footer>
     <script src="script.js"></script>
 </body>

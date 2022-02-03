@@ -5,6 +5,8 @@ function calcular(){
 
     var num = Number(numero.value)
     var imprimir = ''
+
+    document.getElementsByClassName("tabuada")[0].style.visibility = 'visible'
     
     if(num == 0){
         alert('O campo está vazio! ')
